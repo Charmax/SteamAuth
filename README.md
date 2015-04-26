@@ -24,3 +24,8 @@ else
 	// user is not logged in
 }
 ```
+To use users steam info, such as their nickname on steam, you can check the steaminfo variable. Below is an example that will show the logged in users "personaname" on Steam. The name is fetched from a local cache of the users data which is fetched whenever the user logs in.
+e.g.
+```php
+echo $SteamAuth->steaminfo['personaname'];
+```
