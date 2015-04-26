@@ -3,6 +3,7 @@ A simple openid steam login class
 
 # Installation
 Put your steam dev API key into the inc/api.php file
+The directory "cache/" is required.
 
 # How to use
 Create an object of the SteamAuth class wherever you want users to be authenticated
