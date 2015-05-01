@@ -1,6 +1,9 @@
 # SteamAuth
 A simple openid steam login class
 
+# Dependencies
+* OpenID (http://openid.net/), MIT License - part of the distribution
+
 # Installation
 Put your steam dev API key into the inc/api.php file
 
